@@ -152,7 +152,7 @@
                         <div class="row">
                             <div class="col-md-4 position-relative">
                                 <div class="p-3 text-center">
-                                    <h1 class="text-gradient text-primary"><span id="state1" countTo="1500">0</span>+
+                                    <h1 class="text-gradient text-primary"><span id="state1" countTo="4500">0</span>+
                                     </h1>
                                     <h5 class="mt-3">Influencer</h5>
                                     <p class="text-sm font-weight-normal">Indonesian Have many good influencer on the
@@ -307,7 +307,7 @@
                                 <a href="javascript:;">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                            {{-- <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
                                                 <g id="lock-black" stroke="none" stroke-width="1" fill="none"
@@ -320,12 +320,12 @@
                                                         </path>
                                                     </g>
                                                 </g>
-                                            </svg>
+                                            </svg> --}}
                                         </div>
-                                        <img class="w-100 my-auto opacity-6"
+                                        <img class="w-100 my-auto"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/pricing.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="pricing">
+                                            data-bs-toggle="tooltip" data-bs-placement="top" "
+                                            alt=" pricing">
                                     </div>
                                     <div class="mt-2 ms-2">
                                         <h6 class="mb-0">Wegah Wesari</h6>

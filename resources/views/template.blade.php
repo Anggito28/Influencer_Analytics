@@ -23,7 +23,7 @@
         <div class="container">
             <a class="navbar-brand  text-white " href="https://demos.creative-tim.com/material-kit/presentation"
                 rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
-                Material Kit 2
+                Influencer Analytics
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
@@ -72,8 +72,8 @@
                         </a>
                     </li>
                     <li class="nav-item ms-lg-auto my-auto ms-3 ms-lg-0 mt-2 mt-lg-0">
-                        <a href="https://www.creative-tim.com/product/material-kit"
-                            class="btn btn-sm  bg-gradient-primary mb-0 me-1 mt-2 mt-md-0">Free Download</a>
+                        <a href="{{ asset('style/pages/sign-in.html') }}"
+                            class="btn btn-sm  bg-gradient-primary mb-0 me-1 mt-2 mt-md-0">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -112,7 +112,7 @@
                             <img src="{{ asset('style/./assets/img/logo-ct-dark.png') }}" class="mb-3 footer-logo"
                                 alt="main_logo">
                         </a>
-                        <h6 class="font-weight-bolder mb-4">Material Kit 2</h6>
+                        <h6 class="font-weight-bolder mb-4">Influencer Analytics</h6>
                     </div>
                     <div>
                         <ul class="d-flex flex-row ms-n3 nav">
