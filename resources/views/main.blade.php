@@ -291,7 +291,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="{{ asset('style/./sections/page-sections/features.html') }}">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <img class="w-100 my-auto"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/features.jpg"
