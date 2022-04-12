@@ -23,5 +23,5 @@ Route::get('template', function () {
     return view('template');
 });
 Route::get('listuser', function () {
-    return view('template');
+    return view('listuser');
 });

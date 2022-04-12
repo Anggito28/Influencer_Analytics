@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    
+
     <!-- Navbar Transparent -->
     <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent">
         <div class="container">
@@ -97,14 +97,117 @@
             </div>
         </div>
     </div>
-    
-    <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-        <div class="container">
-            <div class="section text-center">
-                <h2 class="title">Your main section here</h2>
+
+    <div class="container mt-5">
+        <div class="card-group">
+            <div class="card m-3" data-animation="true">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Raffi-Ahmad-2020.jpg"
+                            style="width : 100px;" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex mt-n6 mx-auto">
+                        <a class="btn btn-link text-primary ms-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Refresh">
+                            <i class="material-icons text-lg">refresh</i>
+                        </a>
+                        <button class="btn btn-link text-info me-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Edit">
+                            <i class="material-icons text-lg">edit</i>
+                        </button>
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                        <a href="javascript:;">Raffi Ahmad</a>
+                    </h5>
+                    <p class="mb-0">
+                    Raffi Farid Ahmad merupakan pemeran, pembawa acara, penyanyi, pengusaha, YouTuber, produser, dan selebritis berkebangsaan Indonesia. Raffi merupakan anak sulung dari Munawar Ahmad dengan Amy Qanita.
+                    </p>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">100% Engagement</p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">place</i>
+                    <p class="text-sm my-auto"> Jakarta, Indonesia</p>
+                </div>
+            </div>
+            <div class="card m-3" data-animation="true">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Raffi-Ahmad-2020.jpg"
+                            style="width : 100px;" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex mt-n6 mx-auto">
+                        <a class="btn btn-link text-primary ms-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Refresh">
+                            <i class="material-icons text-lg">refresh</i>
+                        </a>
+                        <button class="btn btn-link text-info me-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Edit">
+                            <i class="material-icons text-lg">edit</i>
+                        </button>
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                        <a href="javascript:;">Raffi Ahmad</a>
+                    </h5>
+                    <p class="mb-0">
+                    Raffi Farid Ahmad merupakan pemeran, pembawa acara, penyanyi, pengusaha, YouTuber, produser, dan selebritis berkebangsaan Indonesia. Raffi merupakan anak sulung dari Munawar Ahmad dengan Amy Qanita.
+                    </p>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">100% Engagement</p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">place</i>
+                    <p class="text-sm my-auto"> Jakarta, Indonesia</p>
+                </div>
+            </div>
+            <div class="card m-3" data-animation="true">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Raffi-Ahmad-2020.jpg"
+                            style="width : 100px;" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex mt-n6 mx-auto">
+                        <a class="btn btn-link text-primary ms-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Refresh">
+                            <i class="material-icons text-lg">refresh</i>
+                        </a>
+                        <button class="btn btn-link text-info me-auto border-0" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Edit">
+                            <i class="material-icons text-lg">edit</i>
+                        </button>
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                        <a href="javascript:;">Raffi Ahmad</a>
+                    </h5>
+                    <p class="mb-0">
+                    Raffi Farid Ahmad merupakan pemeran, pembawa acara, penyanyi, pengusaha, YouTuber, produser, dan selebritis berkebangsaan Indonesia. Raffi merupakan anak sulung dari Munawar Ahmad dengan Amy Qanita.
+                    </p>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">100% Engagement</p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">place</i>
+                    <p class="text-sm my-auto"> Jakarta, Indonesia</p>
+                </div>
             </div>
         </div>
     </div>
+
 
     <footer class="footer pt-5 mt-5">
         <div class="container">
@@ -140,8 +243,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pe-1"
-                                    href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">
+                                <a class="nav-link pe-1" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+                                    target="_blank">
                                     <i class="fab fa-youtube text-lg opacity-8"></i>
                                 </a>
                             </li>
@@ -153,14 +256,12 @@
                         <h6 class="text-sm">Company</h6>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.creative-tim.com/presentation"
-                                    target="_blank">
+                                <a class="nav-link" href="https://www.creative-tim.com/presentation" target="_blank">
                                     About Us
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.creative-tim.com/templates/free"
-                                    target="_blank">
+                                <a class="nav-link" href="https://www.creative-tim.com/templates/free" target="_blank">
                                     Freebies
                                 </a>
                             </li>
@@ -193,8 +294,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.creative-tim.com/affiliates/new"
-                                    target="_blank">
+                                <a class="nav-link" href="https://www.creative-tim.com/affiliates/new" target="_blank">
                                     Affiliate Program
                                 </a>
                             </li>
@@ -206,8 +306,7 @@
                         <h6 class="text-sm">Help & Support</h6>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.creative-tim.com/contact-us"
-                                    target="_blank">
+                                <a class="nav-link" href="https://www.creative-tim.com/contact-us" target="_blank">
                                     Contact Us
                                 </a>
                             </li>
@@ -224,8 +323,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.creative-tim.com/sponsorships"
-                                    target="_blank">
+                                <a class="nav-link" href="https://www.creative-tim.com/sponsorships" target="_blank">
                                     Sponsorships
                                 </a>
                             </li>
@@ -244,8 +342,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://www.creative-tim.com/knowledge-center/privacy-policy/"
+                                <a class="nav-link" href="https://www.creative-tim.com/knowledge-center/privacy-policy/"
                                     target="_blank">
                                     Privacy Policy
                                 </a>
@@ -264,8 +361,9 @@
                             All rights reserved. Copyright ©
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> Material Kit by <a href="https://www.creative-tim.com"
-                                target="_blank">Creative Tim</a>.
+
+                            </script> Material Kit by <a href="https://www.creative-tim.com" target="_blank">Creative
+                                Tim</a>.
                         </p>
                     </div>
                 </div>
