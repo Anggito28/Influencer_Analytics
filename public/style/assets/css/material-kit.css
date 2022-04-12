@@ -27229,4 +27229,9 @@ pre[class*="language-"] {
   }
 }
 
+.progress.active .progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
 /*# sourceMappingURL=kit-free.css.map */

@@ -64,28 +64,24 @@
                                     <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                                         id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
-                                        Pages
+                                        Influencer
                                         <img src="{{ asset('style/./assets/img/down-arrow-dark.svg') }}"
                                             alt="down-arrow" class="arrow ms-auto ms-md-2">
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
                                         aria-labelledby="dropdownMenuPages">
                                         <div class="d-none d-lg-block">
-                                            <h6
-                                                class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                                                Landing Pages
-                                            </h6>
                                             <a href="{{ asset('style/./pages/about-us.html') }}"
                                                 class="dropdown-item border-radius-md">
-                                                <span>About Us</span>
+                                                <span>Search Influencer By Personality</span>
                                             </a>
                                             <a href="{{ asset('style/./pages/contact-us.html') }}"
                                                 class="dropdown-item border-radius-md">
-                                                <span>Contact Us</span>
+                                                <span>Search Influencer By Social Media</span>
                                             </a>
-                                            <a href="{{ asset('style/./pages/author.html') }}"
+                                            <a href="{{ asset('style/./pages/contact-us.html') }}"
                                                 class="dropdown-item border-radius-md">
-                                                <span>Author</span>
+                                                <span>Search Influencer By All Catagories</span>
                                             </a>
                                         </div>
                                     </div>
@@ -93,10 +89,23 @@
                                     <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                                         id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="material-icons opacity-6 me-2 text-md">view_day</i>
-                                        Sections
+                                        Buyer Persona
                                         <img src="{{ asset('style/./assets/img/down-arrow-dark.svg') }}"
                                             alt="down-arrow" class="arrow ms-auto ms-md-2">
                                     </a>
+                                    <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+                                        aria-labelledby="dropdownMenuPages">
+                                        <div class="d-none d-lg-block">
+                                            <a href="{{ asset('style/./pages/about-us.html') }}"
+                                                class="dropdown-item border-radius-md">
+                                                <span>Search Buyer Persona</span>
+                                            </a>
+                                            <a href="{{ asset('style/./pages/contact-us.html') }}"
+                                                class="dropdown-item border-radius-md">
+                                                <span>Trend Product All Catagories</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </li>
 
                                 <li class="nav-item dropdown dropdown-hover mx-2">
@@ -107,6 +116,15 @@
                                         <img src="{{ asset('style/./assets/img/down-arrow-dark.svg') }}"
                                             alt="down-arrow" class="arrow ms-auto ms-md-2">
                                     </a>
+                                    <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+                                        aria-labelledby="dropdownMenuPages">
+                                        <div class="d-none d-lg-block">
+                                            <a href="{{ asset('style/./pages/about-us.html') }}"
+                                                class="dropdown-item border-radius-md">
+                                                <span>Documentation About This App</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li class="nav-item my-auto ms-3 ms-lg-0">
                                     <a href="{{ asset('style/pages/sign-in.html') }}"
@@ -278,7 +296,7 @@
                     <div class="col-lg-9">
                         <div class="row">
                             <div class="col-md-4 mt-md-0">
-                                <a href="{{ asset('style/./sections/page-sections/hero-sections.html') }}">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun1.png') }}"
                                             alt="hero">
@@ -303,7 +321,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <div class="position-absolute top-0 end-0 p-2 z-index-1">
                                         </div>
@@ -320,7 +338,7 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-4 mt-md-0 mt-3">
-                                <a href="javascript:;">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         {{-- <div class="position-absolute top-0 end-0 p-2 z-index-1">
                                             <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
@@ -348,7 +366,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun5.png') }}"
                                             data-bs-toggle="tooltip" data-bs-placement="top" alt="blog posts">
@@ -360,7 +378,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
+                                <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun6.png') }}"
                                             data-bs-toggle="tooltip" data-bs-placement="top" alt="testimonials">
@@ -1124,20 +1142,20 @@
                 <hr class="horizontal dark my-5">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6 ms-auto">
-                        <img class="w-100 opacity-6"
-                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-apple.svg') }}" alt="Logo">
+                        <img class="w-30 opacity-4"
+                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-tiktok.svg') }}" alt="Logo">
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
-                        <img class="w-100 opacity-6"
-                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-facebook.svg') }}" alt="Logo">
+                        <img class="w-30 opacity-4"
+                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-twitter.svg') }}" alt="Logo">
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
-                        <img class="w-100 opacity-6"
-                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-nasa.svg') }}" alt="Logo">
+                        <img class="w-30 opacity-2"
+                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-instagram.svg') }}" alt="Logo">
                     </div>
                     <div class="col-lg-2 col-md-4 col-6 ms-lg-0 ms-md-auto">
                         <img class="w-100 opacity-6"
-                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-vodafone.svg') }}" alt="Logo">
+                            src="{{ asset('style/./assets/img/logos/gray-logos/logo-facebook.svg') }}" alt="Logo">
                     </div>
                     <div class="col-lg-2 col-md-4 col-6 me-md-auto mx-md-0 mx-auto">
                         <img class="w-100 opacity-6"
@@ -1162,60 +1180,6 @@
                                 your product.</p>
                             <a href="https://www.creative-tim.com/product/material-kit"
                                 class="btn btn-primary btn-lg mb-3 mb-sm-0">Getting Started</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 mx-auto">
-                        <div class="text-center">
-                            <h3 class="mt-5 mb-4">Available on these technologies</h3>
-                            <div class="row justify-content-center">
-                                <div class="col-lg-2 col-4">
-                                    <a href="https://www.creative-tim.com/product/soft-ui-design-system"
-                                        target="_blank">
-                                        <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/bootstrap5.jpg"
-                                            class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Bootstrap 5 - Most popular front-end component library">
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-4">
-                                    <a href="javascript:;">
-                                        <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/icon-tailwind.jpg"
-                                            class="img-fluid opacity-6" data-bs-toggle="tooltip"
-                                            data-bs-placement="bottom" title="Comming soon">
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-4">
-                                    <a href="javascript:;">
-                                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
-                                            class="img-fluid opacity-6" data-bs-toggle="tooltip"
-                                            data-bs-placement="bottom" title="Comming soon">
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-4">
-                                    <a href="javascript:;">
-                                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                                            class="img-fluid opacity-6" data-bs-toggle="tooltip"
-                                            data-bs-placement="bottom" title="Comming soon">
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-4">
-                                    <a href="javascript:;">
-                                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
-                                            class="img-fluid opacity-6" data-bs-toggle="tooltip"
-                                            data-bs-placement="bottom" title="Comming soon">
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-4">
-                                    <a href="javascript:;" target="_blank">
-                                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                                            class="img-fluid opacity-6" data-bs-toggle="tooltip"
-                                            data-bs-placement="bottom" title="Comming soon">
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

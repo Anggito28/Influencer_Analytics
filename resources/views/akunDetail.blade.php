@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hello, world!</title>
+    <title>Detail Account - Influencer Analytics</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -40,8 +40,8 @@
                     <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
                         <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages2"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="material-icons opacity-6 me-2 text-md">Influencer</i>
-                            Pages
+                            <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
+                            Influencer
                             <img src="{{ asset('style/./assets/img/down-arrow-white.svg') }}" alt="down-arrow"
                                 class="arrow ms-auto ms-md-2 d-lg-block d-none">
                             <img src="{{ asset('style/./assets/img/down-arrow-dark.svg') }}" alt="down-arrow"
@@ -129,8 +129,8 @@
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <div class="text-center">
-                        <h1 class="text-white">Your title here</h1>
-                        <h3 class="text-white">Subtitle</h3>
+                        <h1 class="text-white">Detail Account</h1>
+                        <h3 class="text-white">Influencer & Buyer Persona</h3>
                     </div>
                 </div>
             </div>
@@ -138,12 +138,180 @@
     </div>
     <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
         <div class="container">
-            <div class="section text-center">
-                <h2 class="title">Your main section here</h2>
+            <div class="row text-center py-3 mt-3">
+                <div class="col-12">
+                    <a href="javascript:;" class="avatar avatar-xxl rounded-circle">
+                        <img alt="Image placeholder" src="{{ asset('style/./assets/img/team-4.jpg') }}">
+                    </a>
+                </div>
+            </div>
+
+            <h4 class="text-center mt-4">Testing moni</h4>
+            <div class="mt-2 mb-2 text-center">
+                <img class="w-10 "
+                    src="{{ asset('style/./assets/img/logos/gray-logos/logo-facebook.svg') }}" alt="Logo">
+                <img class="w-2 opacity-6 "
+                    src="{{ asset('style/./assets/img/logos/gray-logos/logo-instagram.svg') }}" alt="Logo">
+                <img class="w-2 opacity-6 " src="{{ asset('style/./assets/img/logos/gray-logos/logo-twitter.svg') }}"
+                    alt="Logo">
+                <img class="w-2 opacity-6 " src="{{ asset('style/./assets/img/logos/gray-logos/logo-tiktok.svg') }}"
+                    alt="Logo">
+            </div>
+            <div class="row text-center py-3 mt-3">
+                <div class="col-12">
+                    <span class="badge bg-gradient-success mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons me-2" aria-hidden="true">people</i>54 K
+                            Followers
+                        </div>
+                    </span>
+                    <span class="badge bg-gradient-danger mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons me-2" aria-hidden="true">favorite</i>101.564
+                        </div>
+                    </span>
+                    <span class="badge bg-gradient-info mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons me-2" aria-hidden="true">verified</i>Artist
+                        </div>
+                    </span>
+                    <span class="badge bg-gradient-warning mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons me-2" aria-hidden="true">grade</i>Influencer
+                        </div>
+                    </span>
+                </div>
+                <div class="text-center">
+                    <span class="badge bg-gradient-primary mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="material-icons me-2" aria-hidden="true">done_all</i>Recomended
+                        </div>
+                    </span>
+                </div>
+
+            </div>
+            <div class="row mt-4 mb-5">
+                <div class="col-6">
+                    <div class="card shadow-xl mx-3 mx-md-4 mt-n3 ">
+                        <div class="card-header bg-primary">
+                            <div class="d-flex align-items-right ">
+                                <h4 class="text-white">Sentiment Analysis</h4>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <div class="row  mt-4">
+                                <div class="col-6 mx-auto">
+                                    <label for="">Sentiment Positif</label>
+                                    <div class="mb-3" id="count-stats">
+                                        <h4 class=" text-gradient text-primary"><span id="state1"
+                                                countTo="4735">0</span>+
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Sentiment Negatif</label>
+                                    <div class="mb-3" id="count-stats">
+                                        <h4 class=" text-gradient text-primary"><span id="state2"
+                                                countTo="200">0</span>+
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6>
+                                        Kategori
+                                    </h6>
+                                    <hr>
+                                </div>
+                                <div class="col-12 text-center mt-2 mb-3">
+                                    <span class="badge bg-gradient-primary mb-2">Sport</span>
+                                    <span class="badge bg-gradient-primary mb-2">Kuliner</span>
+                                    <span class="badge bg-gradient-primary mb-2">Streamer</span>
+                                    <span class="badge bg-gradient-primary mb-2">Traveling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card shadow-xl mx-3 mx-md-4 mt-n3">
+                        <div class="card-header bg-primary">
+                            <div class="d-flex align-items-right ">
+                                <h4 class="text-white">Sentiment Analysis</h4>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <div class="row  mt-2">
+                                <div class="col-6">
+                                    <h6>Personality</h6>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Interest</h6>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Adventure</label>
+                                    <div class="progress progress-striped activemb-3">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 56%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Travel</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 56%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Extrovert</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Shows</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 21%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Sportive</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Talk</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 82%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Attentive</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 45%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mx-auto">
+                                    <label for="">Art</label>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+    </div>
     <footer class="footer pt-5 mt-5">
         <div class="container">
             <div class=" row">
@@ -154,36 +322,6 @@
                                 alt="main_logo">
                         </a>
                         <h6 class="font-weight-bolder mb-4">Influencer Analytics</h6>
-                    </div>
-                    <div>
-                        <ul class="d-flex flex-row ms-n3 nav">
-                            <li class="nav-item">
-                                <a class="nav-link pe-1" href="https://www.facebook.com/CreativeTim/" target="_blank">
-                                    <i class="fab fa-facebook text-lg opacity-8"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-1" href="https://twitter.com/creativetim" target="_blank">
-                                    <i class="fab fa-twitter text-lg opacity-8"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-1" href="https://dribbble.com/creativetim" target="_blank">
-                                    <i class="fab fa-dribbble text-lg opacity-8"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-1" href="https://github.com/creativetimofficial" target="_blank">
-                                    <i class="fab fa-github text-lg opacity-8"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-1"
-                                    href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">
-                                    <i class="fab fa-youtube text-lg opacity-8"></i>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6 col-6 mb-4">
@@ -312,5 +450,55 @@
     </footer>
 
 </body>
+<script src="{{ asset('style/./assets/js/core/popper.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('style/./assets/js/core/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+<!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
+<script src="{{ asset('style/./assets/js/plugins/countup.min.js') }}"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
+<script src="{{ asset('style/./assets/js/plugins/rellax.min.js') }}"></script>
+<!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
+<script src="{{ asset('style/./assets/js/plugins/tilt.min.js') }}"></script>
+<!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
+<script src="{{ asset('style/./assets/js/plugins/choices.min.js') }}"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="{{ asset('style/./assets/js/plugins/parallax.min.js') }}"></script>
+<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="{{ asset('style/./assets/js/material-kit.min.js?v=3.0.0" type="text/javascript') }}"></script>
+<script type="text/javascript">
+    if (document.getElementById('state1')) {
+        const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+        if (!countUp.error) {
+            countUp.start();
+        } else {
+            console.error(countUp.error);
+        }
+    }
+    if (document.getElementById('state2')) {
+        const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+        if (!countUp1.error) {
+            countUp1.start();
+        } else {
+            console.error(countUp1.error);
+        }
+    }
+    if (document.getElementById('state3')) {
+        const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+        if (!countUp2.error) {
+            countUp2.start();
+        } else {
+            console.error(countUp2.error);
+        };
+    }
+</script>
+<script>
+    // Set the width to animate the progress bar
+    // Along with time duration in milliseconds
+    $(".progress-bar").animate({
+        width: "70%",
+    }, 2500);
+</script>
 
 </html>

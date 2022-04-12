@@ -17,11 +17,11 @@ Route::get('/', function () {
     return view('main');
 });
 Route::get('detailAkun', function () {
-    return view('detailAkun');
+    return view('akunDetail');
 });
 Route::get('template', function () {
     return view('template');
 });
 Route::get('listuser', function () {
-    return view('listuner');
+    return view('listuser');
 });
