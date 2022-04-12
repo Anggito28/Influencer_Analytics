@@ -83,7 +83,7 @@
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="material-icons opacity-6 me-2 text-md">view_day</i>
               Sections
@@ -320,7 +320,7 @@
                 </div>
               </div>
             </ul>
-          </li>
+          </li> -->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="material-icons opacity-6 me-2 text-md">article</i>
@@ -388,7 +388,7 @@
               </div>
             </ul>
           </li>
-          <li class="nav-item ms-lg-auto">
+          <!-- <li class="nav-item ms-lg-auto">
             <a class="nav-link nav-link-icon me-2" href="https://github.com/creativetimofficial/soft-ui-design-system" target="_blank">
               <i class="fa fa-github me-1"></i>
               <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star us on Github">Github</p>
@@ -396,7 +396,7 @@
           </li>
           <li class="nav-item my-auto ms-3 ms-lg-0">
             <a href="https://www.creative-tim.com/product/material-kit-pro" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">Upgrade to Pro</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -412,7 +412,7 @@
               <li class="breadcrumb-item active" aria-current="page">Details User</li>
             </ol>
           </nav>
-          <h3>Andika Mestra</h3>
+          <h3>Anya geraldine</h3>
         </div>
         <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
           <div class="container border-bottom">
@@ -552,9 +552,9 @@
                 <!-- <span class="badge bg-light text-dark"><i class="fas fa-lock me-1" aria-hidden="true"></i> Screenshot</span> -->
               </div>
               <div class="col-lg-4 text-end my-auto">
-                <a href="https://demos.creative-tim.com/material-kit-pro/index#pricing-soft-ui" class="text-primary icon-move-right">Get the Code
+                <!-- <a href="https://demos.creative-tim.com/material-kit-pro/index#pricing-soft-ui" class="text-primary icon-move-right">Get the Code
                   <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
