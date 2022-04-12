@@ -19,12 +19,9 @@ Route::get('/', function () {
 Route::get('detailAkun', function () {
     return view('detailAkun');
 });
-Route::get('home', function () {
-    return view('main');
-});
 Route::get('template', function () {
     return view('template');
 });
 Route::get('listuser', function () {
-    return view('template');
+    return view('listuner');
 });
