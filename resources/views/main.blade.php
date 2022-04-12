@@ -280,26 +280,25 @@
                             <div class="col-md-4 mt-md-0">
                                 <a href="{{ asset('style/./sections/page-sections/hero-sections.html') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/headers.jpg"
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun1.png') }}"
                                             alt="hero">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Johan Lasmi</h6>
-                                        <p class="text-secondary text-sm">10 Promote the Product</p>
+                                        <h6 class="mb-0">Raffi Ahmad dan Nagita Savna</h6>
+                                        <p class="text-secondary text-sm">60.8 m followers
+                                        </p>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
                                 <a href="{{ url('detailAkun') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/features.jpg"
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun2.png') }}"
                                             alt="features">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Andika Mestra</h6>
-                                        <p class="text-secondary text-sm">14 Examples</p>
+                                        <h6 class="mb-0">Jessica Jane</h6>
+                                        <p class="text-secondary text-sm">6 m followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -307,29 +306,14 @@
                                 <a href="javascript:;">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            {{-- <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg> --}}
                                         </div>
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/pricing.jpg"
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun3.png') }}"
                                             data-bs-toggle="tooltip" data-bs-placement="top" "
                                             alt=" pricing">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Wegah Wesari</h6>
-                                        <p class="text-secondary text-sm">8 Examples</p>
+                                        <h6 class="mb-0">Jessica Iskandar Verhaag</h6>
+                                        <p class="text-secondary text-sm">29.4 m followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -338,7 +322,7 @@
                             <div class="col-md-4 mt-md-0 mt-3">
                                 <a href="javascript:;">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                        {{-- <div class="position-absolute top-0 end-0 p-2 z-index-1">
                                             <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -353,322 +337,46 @@
                                                     </g>
                                                 </g>
                                             </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/faq.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="faq">
+                                        </div> --}}
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun4.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" alt="faq">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Alisansyah</h6>
-                                        <p class="text-secondary text-sm">1 Examples</p>
+                                        <h6 class="mb-0">Yasmin Naps</h6>
+                                        <p class="text-secondary text-sm">2 m followers</p>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
                                 <a href="javascript:;">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/blogs.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="blog posts">
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun5.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" alt="blog posts">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Putri barsari</h6>
-                                        <p class="text-secondary text-sm">11 Examples</p>
+                                        <h6 class="mb-0">Fadly Faisal</h6>
+                                        <p class="text-secondary text-sm">3.9 followers</p>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
                                 <a href="javascript:;">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/testimonials.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="testimonials">
+                                        <img class="w-100 my-auto" src="{{ asset('style/assets/img/akun6.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" alt="testimonials">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Angina Fermasina</h6>
-                                        <p class="text-secondary text-sm">11 Examples</p>
+                                        <h6 class="mb-0">Ria Ricis</h6>
+                                        <p class="text-secondary text-sm">30.4 m followers</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-md-4 mt-md-0 mt-3">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/teams.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="teams">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Putri babasari</h6>
-                                        <p class="text-secondary text-sm">6 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/stats.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="stats">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Kalik Febriansyah</h6>
-                                        <p class="text-secondary text-sm">3 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/call-to-action.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="CTA">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Putinga Hadiningsih</h6>
-                                        <p class="text-secondary text-sm">8 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-4 mt-md-0 mt-3">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/projects.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="applications">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Ali Hamsyah</h6>
-                                        <p class="text-secondary text-sm">6 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/logo-area.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="logo areas">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Indra Kusuma</h6>
-                                        <p class="text-secondary text-sm">4 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/footers.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="footers">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Febri Andika</h6>
-                                        <p class="text-secondary text-sm">10 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-4 mt-md-0 mt-3">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/general-cards.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="general cards">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Esa Wahyuni</h6>
-                                        <p class="text-secondary text-sm">9 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="javascript:;">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
-                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
-                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
-                                                        fill="#FFFFFF" fill-rule="nonzero">
-                                                        <path
-                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
-                                                        </path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                        <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/content-sections.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="content sections">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Kabira Modila</h6>
-                                        <p class="text-secondary text-sm">8 Examples</p>
-                                    </div>
+                            <div class="col-md-4 mt-md-0 mt-4 ">
+                                <a href="#" class="text-primary icon-move-right">
+                                    Read more
+                                    <i class="fas fa-arrow-right text-sm ms-1"></i>
                                 </a>
                             </div>
                         </div>
@@ -680,58 +388,7 @@
                             <h3>Tiktok</h3>
                             <h6 class="text-secondary font-weight-normal pe-3">We have 320+ influencer in tiktok media,
                                 by sentiment analytics and buyer persona with rating value</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="row mt-3">
-                            <div class="col-md-4">
-                                <a href="{{ asset('style/./sections/navigation/navbars.html') }}">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 m-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/navbars.jpg"
-                                            alt="navbars">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Andika Lesmana</h6>
-                                        <p class="text-secondary text-sm">4 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="{{ asset('style/./sections/navigation/nav-tabs.html') }}">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 m-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/nav-tabs.jpg"
-                                            alt="navtabs">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Puput Babasari</h6>
-                                        <p class="text-secondary text-sm">2 Nav Tabs</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mt-md-0 mt-4">
-                                <a href="{{ asset('style/./sections/navigation/pagination.html') }}">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 m-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/pagination.jpg"
-                                            alt="pagination">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Angelina Sondah</h6>
-                                        <p class="text-secondary text-sm">3 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row pt-lg-6">
-                    <div class="col-lg-3">
-                        <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                            <h3>Twitter</h3>
-                            <h6 class="text-secondary font-weight-normal pe-3">We Have 700+ Influencer in twitter
-                                media, by search with sentiment analytics and </h6>
+                            <span class="badge bg-gradient-primary">Coming Soon</span>
                         </div>
                     </div>
                     <div class="col-lg-9">
@@ -756,13 +413,13 @@
                                             </svg>
                                         </div>
                                         <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/newsletters.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
+                                            src="{{ asset('style/assets/img/tiktok1.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" title="cooming soon"
                                             alt="newsletter">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Laberal Gamma</h6>
-                                        <p class="text-secondary text-sm">6 Examples</p>
+                                        <h6 class="mb-0">Ria Ricis</h6>
+                                        <p class="text-secondary text-sm">26 M Followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -786,13 +443,116 @@
                                             </svg>
                                         </div>
                                         <img class="w-100 m-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/contact-sections.jpg"
+                                            src="{{ asset('style/assets/img/tiktok2.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Coming Soon"
+                                            alt="contact sections">
+                                    </div>
+                                    <div class="mt-2 ms-2">
+                                        <h6 class="mb-0">Fadi Jaidi</h6>
+                                        <p class="text-secondary text-sm">7.7 M Followers</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 mt-md-0 mt-4">
+                                <a href="javascript:;">
+                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
+                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
+                                                        fill="#FFFFFF" fill-rule="nonzero">
+                                                        <path
+                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <img class="w-100 m-auto opacity-6"
+                                            src="{{ asset('style/assets/img/tiktok3.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" title="coming soon"
+                                            alt="contact sections">
+                                    </div>
+                                    <div class="mt-2 ms-2">
+                                        <h6 class="mb-0">Jerome Polin</h6>
+                                        <p class="text-secondary text-sm">4.1 M Followers</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-lg-6">
+                    <div class="col-lg-3">
+                        <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+                            <h3>Twitter</h3>
+                            <h6 class="text-secondary font-weight-normal pe-3">We Have 700+ Influencer in twitter
+                                media, by search with sentiment analytics and from buyer persona</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <a href="javascript:;">
+                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                        {{-- <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
+                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
+                                                        fill="#FFFFFF" fill-rule="nonzero">
+                                                        <path
+                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div> --}}
+                                        <img class="w-100 my-auto"
+                                            src="{{ asset('style/assets/img/twitter1.png') }}"
+                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
+                                            alt="newsletter">
+                                    </div>
+                                    <div class="mt-2 ms-2">
+                                        <h6 class="mb-0">Anya Geraldine</h6>
+                                        <p class="text-secondary text-sm">5M Followers</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 mt-md-0 mt-4">
+                                <a href="javascript:;">
+                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                                        {{-- <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
+                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
+                                                        fill="#FFFFFF" fill-rule="nonzero">
+                                                        <path
+                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div> --}}
+                                        <img class="w-100 m-auto"
+                                            src="{{ asset('style/assets/img/twitter2.png') }}"
                                             data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
                                             alt="contact sections">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Konsina</h6>
-                                        <p class="text-secondary text-sm">8 Examples</p>
+                                        <h6 class="mb-0">Fiersa Besari</h6>
+                                        <p class="text-secondary text-sm">11.5 M Followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -800,27 +560,11 @@
                                 <a href="{{ asset('style/./sections/input-areas/forms.html') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
                                         <img class="w-100 m-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/forms.jpg"
-                                            alt="forms">
+                                            src="{{ asset('style/assets/img/twitter3.png') }}" alt="forms">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Dirallaba</h6>
-                                        <p class="text-secondary text-sm">3 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-4">
-                                <a href="{{ asset('style/./sections/input-areas/inputs.html') }}">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/inputs.jpg"
-                                            alt="inputs">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Benimaru</h6>
-                                        <p class="text-secondary text-sm">6 Examples</p>
+                                        <h6 class="mb-0">Boy Candra</h6>
+                                        <p class="text-secondary text-sm">5.6 M Followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -833,6 +577,7 @@
                             <h3>Facebook</h3>
                             <h6 class="text-secondary font-weight-normal pe-3">We have 120+ data about influencer in
                                 facebook social media, we get it from sentiment analysis and buyer persona </h6>
+                            <span class="badge bg-gradient-primary">Cooming Soon</span>
                         </div>
                     </div>
                     <div class="col-lg-9">
@@ -840,13 +585,29 @@
                             <div class="col-md-4">
                                 <a href="{{ asset('style/./sections/attention-catchers/alerts.html') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/alerts.jpg"
-                                            alt="alerts">
+                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
+                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
+                                                        fill="#FFFFFF" fill-rule="nonzero">
+                                                        <path
+                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <img class="w-100 my-auto opacity-6"
+                                            src="{{ asset('style/assets/img/fb1.png') }}" data-bs-toggle="tooltip"
+                                            data-bs-placement="top" title="Coming Soon" alt="notifications">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Sela Herdianti</h6>
-                                        <p class="text-secondary text-sm">4 Examples</p>
+                                        <h6 class="mb-0">Anya Geraldin</h6>
+                                        <p class="text-secondary text-sm">15.9 K Followers</p>
                                     </div>
                                 </a>
                             </div>
@@ -870,41 +631,41 @@
                                             </svg>
                                         </div>
                                         <img class="w-100 my-auto opacity-6"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/toasts.jpg"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Pro Element"
-                                            alt="notifications">
+                                            src="{{ asset('style/assets/img/fb2.png') }}" data-bs-toggle="tooltip"
+                                            data-bs-placement="top" title="Coming Soon" alt="notifications">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Abraham Linkon</h6>
-                                        <p class="text-secondary text-sm">3 Examples</p>
+                                        <h6 class="mb-0">Raffi Ahmad</h6>
+                                        <p class="text-secondary text-sm">13 M Followers</p>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-4 mt-md-0 mt-4">
                                 <a href="{{ asset('style/./sections/attention-catchers/tooltips-popovers.html') }}">
                                     <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/popovers.jpg"
-                                            alt="tooltip_popover">
+                                        <div class="position-absolute top-0 end-0 p-2 z-index-1">
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="lock-black" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <circle id="Oval" fill="#1F2937" cx="12" cy="12" r="12"></circle>
+                                                    <g id="padlock" transform="translate(7.000000, 5.000000)"
+                                                        fill="#FFFFFF" fill-rule="nonzero">
+                                                        <path
+                                                            d="M5,0 C3.16666667,0 1.66666667,1.5 1.66666667,3.33333333 L1.66666667,4.58333333 C0.666666667,5.5 0,6.83333333 0,8.33333333 C0,11.0833333 2.25,13.3333333 5,13.3333333 C7.75,13.3333333 10,11.0833333 10,8.33333333 C10,6.83333333 9.33333333,5.5 8.33333333,4.58333333 L8.33333333,3.33333333 C8.33333333,1.5 6.83333333,0 5,0 Z M5.83333333,8.91666667 L5.83333333,10.8333333 L4.16666667,10.8333333 L4.16666667,8.91666667 C3.66666667,8.66666667 3.33333333,8.08333333 3.33333333,7.5 C3.33333333,6.58333333 4.08333333,5.83333333 5,5.83333333 C5.91666667,5.83333333 6.66666667,6.58333333 6.66666667,7.5 C6.66666667,8.08333333 6.33333333,8.66666667 5.83333333,8.91666667 Z M6.66666667,3.66666667 C6.16666667,3.41666667 5.58333333,3.33333333 5,3.33333333 C4.41666667,3.33333333 3.83333333,3.41666667 3.33333333,3.66666667 L3.33333333,3.33333333 C3.33333333,2.41666667 4.08333333,1.66666667 5,1.66666667 C5.91666667,1.66666667 6.66666667,2.41666667 6.66666667,3.33333333 L6.66666667,3.66666667 Z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <img class="w-100 my-auto opacity-6"
+                                            src="{{ asset('style/assets/img/fb3.png') }}" data-bs-toggle="tooltip"
+                                            data-bs-placement="top" title="Coming Soon" alt="notifications">
                                     </div>
                                     <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Abimanyu Setiawan</h6>
-                                        <p class="text-secondary text-sm">2 Examples</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-4 mt-md-0 mt-3">
-                                <a href="{{ asset('style/./sections/attention-catchers/modals.html') }}">
-                                    <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
-                                        <img class="w-100 my-auto"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections/modals.jpg"
-                                            alt="modals">
-                                    </div>
-                                    <div class="mt-2 ms-2">
-                                        <h6 class="mb-0">Edi Mulyadi</h6>
-                                        <p class="text-secondary text-sm">5 Examples</p>
+                                        <h6 class="mb-0">Jessica Iskandar</h6>
+                                        <p class="text-secondary text-sm">1,1 M Followers</p>
                                     </div>
                                 </a>
                             </div>
