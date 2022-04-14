@@ -25,3 +25,12 @@ Route::get('template', function () {
 Route::get('listuser', function () {
     return view('listuser');
 });
+Route::get('kategori', function () {
+    return view('kategori');
+});
+Route::get('kategori-gaming', function () {
+    return view('gaming');
+});
+Route::get('detail', function () {
+    return view('detailAkun');
+});
